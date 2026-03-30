@@ -39,15 +39,19 @@
  - 🚪 **Limited External Facing Ports** — Everything runs internally on your LAN
  - 📦 **Portable & Modular** — Tested on Debian; easily distribute across hardware
  - 🎯 **Extremely Flexible** — Add, remove, or customize apps with minimal effort
- 
+
  ---
  ## Getting Started
 
-1. `chmod +x launch_dashboard.sh`
-2. `./launch_dashboard.sh`
-3. Stick with default IP addresses, domains, ports and realm names until you know what you're doing.
-4. Unless you set a password during install, it will be available in the `docker-compose.yml`
-5. Remember to regenerate your **Client Secret** in Keycloak, copy it and paste it into the highlighted `docker-compose.yml` variables (`# <---- Insert from Keycloak`)
+1. ```bash
+   chmod +x launch_dashboard.sh
+   ```
+2. ```bash
+   ./launch_dashboard.sh
+   ```
+7. Stick with default IP addresses, domains, ports and realm names until you know what you're doing.
+8. Unless you set a password during install, it will be available in the `docker-compose.yml`
+9. Remember to regenerate your **Client Secret** in Keycloak, copy it and paste it into the highlighted `docker-compose.yml` variables (`# <---- Insert from Keycloak`)
 
 ---
 
