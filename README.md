@@ -10,9 +10,13 @@
 ![GitHub stars](https://img.shields.io/github/stars/The-Incredible-Gamma-Man/HomeLab_Dashboard_MCP_Integrated)
 ![GitHub forks](https://img.shields.io/github/forks/The-Incredible-Gamma-Man/HomeLab_Dashboard_MCP_Integrated)
 
- <div style="display: flex; overflow=x: auto; gap: 10px; padding: 10px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;">
-  <img width="1868" height="986" alt="Image" src="https://github.com/user-attachments/assets/479c5d1f-6bfb-421c-b496-5e8344bf8393" />
- </div>
+<div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;">
+  <img 
+    src="images/Homarr_Dashboard.png" 
+    alt="Homarr Dashboard" 
+    style="width: 100%; max-width: 1868px; height: auto;"
+  />
+</div>
  
  ## Overview
  
@@ -165,9 +169,13 @@
  - Paste to the 'video streaming' item in Homarr's dashboard -> http://<ip:port>/memfs/<docker-id>.m3u8 | also found on Restreamer, under the cam channel, marked `HLS`
  - If the above fails, use an 'iframe' item in Homarr and paste the HTML link | found on Restreamer, inside the `Player` config options. NOT the iFrame link! Homarr manages that for you.
  - See example config:
-   <div style="display: flex; overflow=x: auto; gap: 10px; padding: 10px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;">
-   <img width="597" height="842" alt="Image" src="https://github.com/user-attachments/assets/42da6f7f-d808-4623-8dd0-2c245bba6529" />
-   </div>
+<div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;">
+  <img 
+    src="images/Restreamer_Settings.png" 
+    alt="Recommended Restreamer Settings" 
+    style="width: 50%; max-width: 934px; height: auto;"
+  />
+</div>
  
  ## Considerations
  
@@ -221,19 +229,35 @@
 
 **Project Gallery**
 
-<div style="display: flex; overflow=x: auto; gap: 10px; padding: 10px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;">
-  <img width="1868" height="986" alt="Image" src="https://github.com/user-attachments/assets/479c5d1f-6bfb-421c-b496-5e8344bf8393" />
-  <img width="1892" height="979" alt="Image" src="https://github.com/user-attachments/assets/4113addf-cb0c-4982-87f3-65d5b0a2e3f0" />
-  <img width="1900" height="963" alt="Image" src="https://github.com/user-attachments/assets/780d8063-1548-4ccd-83ee-233392b30d33" />
-  <img width="1581" height="970" alt="Image" src="https://github.com/user-attachments/assets/4d3bd7e5-f2b7-4520-a1ba-304b5e077bd5" />
-  <img width="1574" height="961" alt="Image" src="https://github.com/user-attachments/assets/aeefb45d-305d-495c-b7fc-8a9c9be63480" />
-  <img width="1512" height="868" alt="Image" src="https://github.com/user-attachments/assets/2a9864a9-c25f-4402-82a1-fae56f2e8b3b" />
-  <img width="1778" height="902" alt="Image" src="https://github.com/user-attachments/assets/f3202f46-c329-45e0-ae81-a2d107671d61" />
-  <img width="1287" height="764" alt="Image" src="https://github.com/user-attachments/assets/2f4cdb1e-38b4-4832-b71b-5ff16590c0cd" />
-  <img width="1866" height="971" alt="Image" src="https://github.com/user-attachments/assets/f48fb6e0-8e8e-4798-be32-3c4cd7d62fdb" />
-  <img width="1902" height="908" alt="Image" src="https://github.com/user-attachments/assets/061c280b-7b03-4f58-bd5c-627254d3ab44" />
-  <img width="1282" height="649" alt="Image" src="https://github.com/user-attachments/assets/65b501b0-96e4-44d5-a6e9-3dd01427bd0b" />
-  <img width="1906" height="753" alt="Image" src="https://github.com/user-attachments/assets/a92c5f84-0e41-469b-b58a-d0343409f5d7" />
-  <img width="1896" height="633" alt="Image" src="https://github.com/user-attachments/assets/03ca6bcf-6318-4a32-9fda-c02be338d414" />
-  <img width="1328" height="974" alt="Image" src="https://github.com/user-attachments/assets/e65882c5-7c6f-4b08-b78c-9eb30fee015c" />
+<div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;">
+  <img 
+    src="images/Keycloak.png" 
+    alt="Keycloak Login Example" 
+    style="width: 75%; max-width: 1868px; height: auto;"
+  />
+   <img 
+    src="images/WebUI_Capabilities.png" 
+    alt="Demonstration of Open WebUI Calling MCP Tools" 
+    style="width: 75%; max-width: 1868px; height: auto;"
+  />
+   <img 
+    src="images/GitLab_Login.png" 
+    alt="GitLab Login Page Demonstrating SSO Option" 
+    style="width: 75%; max-width: 1868px; height: auto;"
+  />
+   <img 
+    src="images/GitLab_HomePage.png" 
+    alt="GitLab HomePage" 
+    style="width: 75%; max-width: 1868px; height: auto;"
+  />
+   <img 
+    src="images/NextCloud_Kanban.png" 
+    alt="Demonstration of NextCloud Features" 
+    style="width: 75%; max-width: 1868px; height: auto;"
+  />
+   <img 
+    src="images/NextCloud_Keycloak_Settings.png" 
+    alt="Keycloak Config Settings for NextCloud" 
+    style="width: 75%; max-width: 1868px; height: auto;"
+  />
 </div>
