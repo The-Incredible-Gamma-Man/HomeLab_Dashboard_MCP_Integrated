@@ -257,10 +257,13 @@
 ![Atlas Results Subnet Offline](./images/Subnet_Offline.png)
 
 ![Atlas Results Hosts Offline](./images/hosts_offline.png)
-
+*ai-nextcloud-mcp shows as 'offline' until the config file has been populated with API keys from each app
 ![Atlas Results Hosts Web Connected](./images/Hosts_Web_Connected.png)
 
 ![Atlas Results hosts web connected](./images/hosts_web_connected.png)
+
+![Docker Stats inc. Memory Usage](./images/Docker_Stats.png)
+*Docker CPU percentage is relative to number of cores in use. 100% = 1 core
 
 ---
 
