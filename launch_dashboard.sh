@@ -791,10 +791,10 @@ success "CA copied to Trilium"
 
 # Gitlab (Requires rootCA in local /certs/ folder)
 $SUDO_CMD cp "$WORK_DIR/certs/rootCA.crt" "$WORK_DIR/gitlab-config/trusted-certs/"
+success "CA copied to Gitlab"
 
 # Restart affected containers
 docker compose -f "$COMPOSE_FILE" restart homarr trilium gitlab 2>/dev/null || true
-success "CA copied to Gitlab"
 
 # Turn off cleanup on success
 CLEANUP_NEEDED=false
