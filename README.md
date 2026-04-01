@@ -1,5 +1,4 @@
-<meta name="google-site-verification" content="MQbvGhpN1NHQFialBBxnta6hDtvF-9ZrCIR2vzzfnyI" />
- # Offline HomeLab Dashboard (MCP Integrated)
+# Offline HomeLab Dashboard (MCP Integrated)
 
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
